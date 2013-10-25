@@ -1,0 +1,508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"isActive"
+			],
+			[
+				"new",
+				"newVal"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"get",
+				"getCookiesFromStorage"
+			],
+			[
+				"delete",
+				"deleteCookieFromStorage"
+			],
+			[
+				"str",
+				"stringToNode"
+			],
+			[
+				"p",
+				"popUpTmpl"
+			],
+			[
+				"ng-",
+				"ng-controller"
+			],
+			[
+				"cooke",
+				"cookieExpressApp"
+			],
+			[
+				"re",
+				"readCookies"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"bo",
+				"bodyEl"
+			],
+			[
+				"sons",
+				"songsView"
+			],
+			[
+				"son",
+				"songsView"
+			],
+			[
+				"add",
+				"addOne"
+			],
+			[
+				"V",
+				"View"
+			],
+			[
+				"Mo",
+				"Model"
+			],
+			[
+				"S",
+				"Song"
+			],
+			[
+				"init",
+				"initialize"
+			],
+			[
+				"Col",
+				"Collections"
+			],
+			[
+				"Ap",
+				"App"
+			],
+			[
+				"Son",
+				"SongList"
+			],
+			[
+				"Item",
+				"ItemView"
+			],
+			[
+				"Viw",
+				"Views"
+			],
+			[
+				"GTo",
+				"GToSCtrl"
+			],
+			[
+				"s",
+				"songData"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"se",
+				"setInterval"
+			],
+			[
+				"ne",
+				"newI"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ur",
+				"urlHash"
+			],
+			[
+				"play",
+				"playPauseBtn"
+			],
+			[
+				"for",
+				"forceQuit"
+			],
+			[
+				"pla",
+				"playPauseBtn"
+			],
+			[
+				"tab",
+				"tabId"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"trans",
+				"transEl1Rect"
+			],
+			[
+				"image",
+				"imageData"
+			],
+			[
+				"off",
+				"offsetHeight"
+			],
+			[
+				"pa",
+				"parentNode"
+			],
+			[
+				"tran",
+				"transBg"
+			],
+			[
+				"transB",
+				"transBgNew"
+			],
+			[
+				"al",
+				"alerted"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "manifest.json",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"synta sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"toggle",
+				"View: Toggle Minimap"
+			],
+			[
+				"tofl",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 353.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/e_portin/Documents/lab/statusApp/manifest.json",
+		"/Users/e_portin/Documents/lab/cookieExpress/js/content.js",
+		"/Users/e_portin/Documents/lab/cookieExpress/icon-48.png",
+		"/Applications/MAMP/htdocs/gToS/js/backbone.marionette/app.js",
+		"/Applications/MAMP/htdocs/gToS/js/angular/popup.js",
+		"/Applications/MAMP/htdocs/gToS/popup-angular.html",
+		"/Applications/MAMP/htdocs/gToS/js/background.js",
+		"/Applications/MAMP/htdocs/gToS/js/content.js",
+		"/Applications/MAMP/htdocs/gToS/js/popup.js",
+		"/Applications/MAMP/htdocs/gToS/popup.html",
+		"/Applications/MAMP/htdocs/gToS/manifest.json",
+		"/Applications/MAMP/htdocs/gToS/popup-backbone.html",
+		"/Users/e_portin/Documents/lab/gToS/js/popup.js",
+		"/Users/e_portin/Documents/lab/gToS/popup.html",
+		"/Users/e_portin/Documents/lab/gToS/partials/buttonBar.html",
+		"/Users/e_portin/Documents/lab/transparent text/bus.jpg",
+		"/Applications/MAMP/htdocs/tt/index.html",
+		"/Users/e_portin/Documents/lab/imageMap/transparent text/index.html",
+		"/Users/e_portin/Documents/lab/imageMap/transparent text/arrays",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/js/background.js",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/js/jquery-2.0.3.min.js",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/sass/style.scss",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/js/closer.js",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/js/content.js",
+		"/Users/e_portin/Documents/lab/fontTest/index.html",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/js/popup.js",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/background.js",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/popup.html",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/manifest.json",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/manifest.json",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/content.js",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/content_script.js",
+		"/Users/e_portin/Documents/lab/transparent text/index.html",
+		"/Users/e_portin/Documents/lab/pageaction_by_url/icon-48.png",
+		"/Users/e_portin/Documents/lab/gToS/gToS/js/background.js",
+		"/Users/e_portin/Desktop/test.html",
+		"/Users/e_portin/Desktop/viewportTest.html",
+		"/Users/Shared/e_portin/Caches/TemporaryItems/Outlook Temp/shoppable-videos-page.js",
+		"/Users/e_portin/Documents/lab/nap-frontend/production/product-overlay/views/single-product-view.js",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/css/page.css",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/js/background.js",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/js/content_script.js",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/js/popup.js",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/sass/popup.scss",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/popup.html",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/css/popup.css",
+		"/Users/e_portin/Documents/lab/wordExtender/wordExtender/popup.css",
+		"/Users/e_portin/work/webapp/webapp/src/main/views/nap/ipad/pgOrderReturnReview.jsp",
+		"/Users/e_portin/work/webapp/webapp/www/shared/src/styles/sass/ipad/modules/_button.scss",
+		"/Users/e_portin/work/webapp/webapp/www/shared/src/styles/sass/ipad/modules/_progress.scss",
+		"/Users/e_portin/work/webapp/webapp/www/shared/build/scripts/cookie-util.js",
+		"/Users/e_portin/work/webapp/webapp/www/shared/src/styles/.sass-cache/3bf76f04c27c86c4222b7ef936ccdcf3765d38e7/_summary-table.scssc",
+		"/Users/e_portin/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/e_portin/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/e_portin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"alt +",
+			"1",
+			"alt+",
+			" + ",
+			"ul",
+			"stringToNode",
+			"toCookie",
+			"updateCookies",
+			"oldItems",
+			"readCookies",
+			"searchText",
+			"\"",
+			"app",
+			"App",
+			"app",
+			"new Todo",
+			"Todo",
+			"marionette",
+			"bower_components",
+			"myApp",
+			"checkForValidUrl",
+			"div",
+			"box",
+			"bgData",
+			"width",
+			"alert",
+			"href",
+			"onDictionaryCheckDone",
+			"circle",
+			"cicrle",
+			"all",
+			"newWordCount",
+			"getNewWordCount",
+			"newWordCount",
+			"NewWordCount",
+			"newWordCount",
+			"NewWordCount",
+			"newWordCount",
+			"NewWordCount",
+			"newWordCount",
+			"NewWordCount",
+			"newWordCount",
+			"icon16",
+			"return-options",
+			"\n    "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "manifest.json",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"progresssc",
+				"www/shared/src/styles/sass/ipad/modules/_progress.scss"
+			],
+			[
+				"cookie",
+				"www/shared/build/scripts/cookie-util.js"
+			],
+			[
+				"modulebutton",
+				"www/shared/src/styles/sass/ipad/modules/_button.scss"
+			],
+			[
+				"scsstable",
+				"www/shared/src/styles/.sass-cache/3bf76f04c27c86c4222b7ef936ccdcf3765d38e7/_summary-table.scssc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 330.0,
+	"status_bar_visible": true
+}

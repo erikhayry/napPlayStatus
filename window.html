@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>NAP play status</h1>
+    <div class="l-content">
+        <div ng-app="statusApp" ng-controller="appCtrl">
+        	<ul>
+        		<li ng-repeat="branch in branches" class="m-branch">
+        			<h2>{{branch.url}}</h2>
+        			<ul class="m-branch-events">
+        				<li ng-repeat="branchData in branch.data" class="m-branch-event is-{{branchData.state}}">
+        					<a href="{{branchData.target_url}}" target="_blank">
+        						{{branchData.id}} -
+        						{{branchData.created_at}} - 
+        						{{branchData.description}}
+        					</a>		
+        				</li>
+        			</ul>
+        		</li>
+        	</ul>
+        </div>
+    </div>
+	
+	<script src="js/angular.min.js" type="text/javascript"></script>
+	<script src="js/angular-resource.min.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>
+
+  </body>
+</html>

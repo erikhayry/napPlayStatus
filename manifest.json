@@ -1,0 +1,14 @@
+{
+  "name": "NAP play status",
+  "description": "shows build status of NAP play web app projects",
+  "version": "0.1",
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "icons": { "16": "statusApp-16.png", "128": "statusApp-128.png" },
+  "sandbox": {
+     "pages": ["window.html", "angular-min.js"]
+  }
+}
