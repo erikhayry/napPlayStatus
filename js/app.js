@@ -4,9 +4,9 @@ var statusApp = angular.module('statusApp', []);
 statusApp.factory('dataFactory', function($http, $q){
 	return {
 		getData : function(base, url){
-			return $http({method: 'GET', url: base + url});
+			return $http({method: 'GET', url: base + '/' + url});
 		},
-		getBranchData : function(url){
+		getBranchData : function(base, url){
 				var deferred = $q.defer();
 				
 				$http({method: 'GET', url: base + '/statuses/' + url}).
@@ -73,7 +73,7 @@ statusApp.controller('appCtrl', function($scope, dataFactory){
 
 	$scope.branches;
 
-	
+
 	$scope.status = 'loading new data';
 
 	var _base = 'https://api.github.com/repos/erikportin/napPlayAdmin';
@@ -81,8 +81,9 @@ statusApp.controller('appCtrl', function($scope, dataFactory){
 
 	dataFactory.getData(_base, 'branches')
 		.success(function(data){
-			for (var i = 0; i < data.data.length; i++) {
-				dataFactory.getBranchData(_base, data.data[i].name).then(function(data){
+			$scope.branches = {};
+			for (var i = 0; i < data.length; i++) {
+				dataFactory.getBranchData(_base, data[i].name).then(function(data){
 					$scope.branches[data.url] = {
 													time : _prettyDate(data.data[0].created_at),
 													target : data.data[0].target_url, 

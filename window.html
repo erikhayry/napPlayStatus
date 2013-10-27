@@ -9,8 +9,8 @@
     </div>
     <div class="l-content">
         <div window-change-action>
-            <h3 ng-show="branches.length == undefined">{{status}}</h3>
-        	<ul ng-show="branches.length != undefined">
+            <h3 ng-show="branches == undefined">{{status}}</h3>
+        	<ul ng-show="branches != undefined">
         		<li ng-repeat="branch in branches" class="m-branch" >
         			<h2>{{branch.url}}</h2>
         			<ul class="m-branch-events">
