@@ -3,19 +3,20 @@
   <head>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <h1>NAP play status</h1>
+  <body ng-app="statusApp" ng-controller="appCtrl">
+    <div class="m-header">
+      <h1>{{projectName}}</h1>
+    </div>
     <div class="l-content">
-        <div ng-app="statusApp" ng-controller="appCtrl">
-        	<ul>
-        		<li ng-repeat="branch in branches" class="m-branch">
+        <div window-change-action>
+            <h3 ng-show="branches.length == undefined">{{status}}</h3>
+        	<ul ng-show="branches.length != undefined">
+        		<li ng-repeat="branch in branches" class="m-branch" >
         			<h2>{{branch.url}}</h2>
         			<ul class="m-branch-events">
-        				<li ng-repeat="branchData in branch.data" class="m-branch-event is-{{branchData.state}}">
-        					<a href="{{branchData.target_url}}" target="_blank">
-        						{{branchData.id}} -
-        						{{branchData.created_at}} - 
-        						{{branchData.description}}
+        				<li class="m-branch-event is-{{branch.state}}">
+        					<a href="{{branch.target}}" target="_blank" class="m-branch-event-desc">
+        						{{branch.time}}
         					</a>		
         				</li>
         			</ul>
