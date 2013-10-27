@@ -52,7 +52,7 @@ statusApp.controller('appCtrl', function($scope, dataFactory){
 
 	// Takes an ISO time and returns a string representing how
 	// long ago the date represents.
-	function _prettyDate(time){
+	var _prettyDate = function(time){
 		var date = new Date((time || "").replace(/-/g,"/").replace(/[TZ]/g," ")),
 			diff = (((new Date()).getTime() - date.getTime()) / 1000),
 			day_diff = Math.floor(diff / 86400);
@@ -69,37 +69,47 @@ statusApp.controller('appCtrl', function($scope, dataFactory){
 			day_diff == 1 && "Yesterday" ||
 			day_diff < 7 && day_diff + " days ago" ||
 			day_diff < 31 && Math.ceil( day_diff / 7 ) + " weeks ago";
+	},
+
+	_sTomS = function(s){
+		return s * 1000; 
+	},
+
+	_init = function(){
+		$scope.branches;
+
+		$scope.status = 'loading new data';
+
+		var _base = 'https://api.github.com/repos/erikportin/napPlayAdmin';
+		$scope.projectName = _base.substr(_base.lastIndexOf("/") + 1)
+
+		dataFactory.getData(_base, 'branches')
+			.success(function(data){
+				$scope.branches = {};
+				for (var i = 0; i < data.length; i++) {
+					dataFactory.getBranchData(_base, data[i].name).then(function(data){
+						$scope.branches[data.url] = {
+														time : _prettyDate(data.data[0].created_at),
+														target : data.data[0].target_url, 
+														state : data.data[0].state,
+														url : data.url
+													};
+					});
+				};
+			})
+			.error(function(data){
+				$scope.status = _base + ' unavailable';
+			})		
+			.then(function(){
+				//console.log('done?')
+			})		
 	}
 
-	$scope.branches;
+	_init();
 
-
-	$scope.status = 'loading new data';
-
-	var _base = 'https://api.github.com/repos/erikportin/napPlayAdmin';
-	$scope.projectName = _base.substr(_base.lastIndexOf("/") + 1)
-
-	dataFactory.getData(_base, 'branches')
-		.success(function(data){
-			$scope.branches = {};
-			for (var i = 0; i < data.length; i++) {
-				dataFactory.getBranchData(_base, data[i].name).then(function(data){
-					$scope.branches[data.url] = {
-													time : _prettyDate(data.data[0].created_at),
-													target : data.data[0].target_url, 
-													state : data.data[0].state,
-													url : data.url
-												};
-				});
-			};
-		})
-		.error(function(data){
-			$scope.status = _base + ' unavailable';
-		})		
-		.then(function(){
-			console.log('done?')
-		})
-
-
-
+	setInterval(function(){
+		$scope.$apply(function(){
+			_init();
+		});
+	}, _sTomS(300)); //every 5 minutes (300s)
 });
